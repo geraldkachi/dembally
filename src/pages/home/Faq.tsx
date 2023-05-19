@@ -91,7 +91,7 @@ const settings = {
         <div className="py-20 object-cover w-full h-full sm:h-screen bg-no-repeat bg-cover bg-center mx-auto bg-[url('/aboutbac.png')]">
           <div className="pb-40">
             <Carousel arrows {...settings}>
-              <div>
+              <div className="flex items-center justify-center">
               {faqArr.map((item, index) => (
                 <Accordion key={`faq_${index}`} heading={<h1 className="font-semibold my-4 text-lg text-[#FFEEC8]">{item.header}</h1>}>
                   <p className="pb-4 text-[#FFEEC8]">{item?.content}</p>
