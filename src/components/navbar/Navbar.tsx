@@ -21,9 +21,9 @@ const Navbar = ({ scrollToSection }: Props) => {
 
 
                 <div className="justify-between items-center flex text-[#8A8986]">
-                    <Link to="/" className={`${window.location.pathname === '/' && 'hidden text-white'} mx-4`}>Home</Link>
-                    <Link to="/about" className={`${window.location.pathname === '/about' && 'hidden text-white'} mx-4`}>About</Link>
-                    <Link to="/faq" className={`${window.location.pathname === '/faq' && 'hidden text-white'} mx-4`}>Faq</Link>
+                    <Link to="/" className={`${window.location.pathname === '/' && 'hidden text-white'} mx-3 sm:mx-4`}>Home</Link>
+                    <Link to="/about" className={`${window.location.pathname === '/about' && 'hidden text-white'} mx-3 sm:mx-4`}>About</Link>
+                    <Link to="/faq" className={`${window.location.pathname === '/faq' && 'hidden text-white'} mx-3 sm:mx-4`}>Faq</Link>
                 </div>
 
                 <div className="sm:flex md:order-2">
