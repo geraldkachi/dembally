@@ -78,20 +78,19 @@ const Faq = () => {
   return (
     <div>
       <div className="absolute top-0 z-10 w-full">
-        <div className="absolute h-full w-full bg-black opacity-5"></div>
         <Navbar />
       </div>
       <div>
 
         <div className="">
-          <div className="absolute h-full w-full bg-black opacity-5"></div>
-          <div className="py-20 object-cover w-full h-full bg-no-repeat bg-cover bg-center mx-auto bg-[url('/faqfirst.png')]">
-            <div className="mt-52 text-5xl z-10 text-white font-medium text-center">Frequently Asked Questions</div>
+          <div className="py-40 object-cover w-full h-full bg-no-repeat bg-cover bg-center mx-auto bg-[url('/faqfirst.png')] bg-black bg-opacity-100">
+          {/* <div className="absolute h-full w-full bg-black opacity-5"></div> */}
+            <div className="mt-40 text-3xl md:text-[56px] text-white font-medium text-center">Frequently Asked Questions</div>
           </div>
         </div>
 
-        <div className="object-cover w-full h-full sm:h-screen bg-no-repeat bg-cover bg-center mx-auto bg-[url('/aboutbac.png')]">
-          <div className="absolute h-full w-full bg-black opacity-70"></div>
+        <div className="object-cover w-full h-full sm:h-screen bg-no-repeat bg-cover bg-center mx-auto bg-[url('/aboutbac.png')] bg-black bg-opacity-100">
+          <div className="absolute h-full w-full bg-black opacity-70 bg-opacity-90"></div>
 
           <div className="py-20">
             <Carousel arrows {...settings}>

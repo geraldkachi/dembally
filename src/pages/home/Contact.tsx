@@ -10,6 +10,8 @@ const Contact = () => {
       </div>
 
       <section className="relative bg-[url(/contactimg.png)] bg-cover bg-center bg-no-repeat sm:h-screen">
+      <div className="absolute h-full w-full bg-black opacity-40"></div>
+
         <div className="relative mx-auto max-w-screen-xl sm:gap-x-56 px-4 sm:py-32 sm:px-6 lg:flex h-screen lg:items-center lg:px-8">
           <div className="hidden sm:flex flex-col justify-between">
             <div className="space-y-2 text-white">

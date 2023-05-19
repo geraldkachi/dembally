@@ -14,20 +14,20 @@ const Navbar = ({ scrollToSection }: Props) => {
     return (
         // <div className=' sm:fixed top-0 w-full z-50 border-b-2 border-white'>
             <div className="">
-            <div className="bg-transparent  max-w-7xl  flex flex-wrap items-center justify-between mx-auto p-4">
+            <div className="bg-transparent  max-w-7xl  flex items-center justify-between mx-auto p-4">
                 <Link to="/" className="flex items-center">
                     <Logonav />
                 </Link>
 
 
                 <div className="justify-between items-center flex text-[#8A8986]">
-                    <Link to="/" className={`${window.location.pathname === '/' && 'hiden text-white'} mx-4`}>Home</Link>
-                    <Link to="/about" className={`${window.location.pathname === '/about' && 'hiden text-white'} mx-4`}>About</Link>
-                    <Link to="/faq" className={`${window.location.pathname === '/faq' && 'hiden text-white'} mx-4`}>Faq</Link>
+                    <Link to="/" className={`${window.location.pathname === '/' && 'hidden text-white'} mx-4`}>Home</Link>
+                    <Link to="/about" className={`${window.location.pathname === '/about' && 'hidden text-white'} mx-4`}>About</Link>
+                    <Link to="/faq" className={`${window.location.pathname === '/faq' && 'hidden text-white'} mx-4`}>Faq</Link>
                 </div>
 
-                <div className="hidden sm:flex md:order-2">
-                    <button type="button" onClick={() => navigate('/contact')} className="flex items-center border border-[#F6CD72]  text-white bg-transparent focus:outline-none  font-medium rounded-md text-sm px-10 sm:py-3 py-6 text-center mr-3 md:mr-0">
+                <div className="sm:flex md:order-2">
+                    <button type="button" onClick={() => navigate('/contact')} className={`${window.location.pathname === '/contact' && 'hidden'} whitespace-nowrap flex items-center border border-[#F6CD72]  text-white bg-transparent focus:outline-none  font-medium rounded-md text-sm px-5 sm:px-10 py-3 text-center mr-3 md:mr-0`}>
                         Contact Us
                     </button>
 
