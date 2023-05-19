@@ -67,7 +67,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                     </div>
 
                     <Carousel autoplay arrows {...settings}>
-                        <section className="relative bg-[url(/img1.png)] bg-cover bg-center bg-no-repeat h-screen">
+                        <section className="relative bg-[url(/herosvg.svg)] bg-cover bg-center bg-no-repeat h-screen">
                         <div className="absolute h-full w-full bg-black opacity-70"></div>
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
                                 <div className="max-w-7xl mx-auto text-center text-white">
@@ -82,7 +82,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                             </div>
                         </section>
 
-                        <section className="relative bg-[url(/img2.png)] bg-cover bg-center bg-no-repeat h-screen">
+                        <section className="relative bg-[url(/herosvg2.svg)] bg-cover bg-center bg-no-repeat h-screen">
                         <div className="absolute h-full w-full bg-black opacity-70"></div>
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
                                 <div className="max-w-7xl mx-auto text-center text-white">
@@ -97,7 +97,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                             </div>
                         </section>
 
-                        <section className="relative bg-[url(/img3.png)] bg-cover bg-center bg-no-repeat h-screen">
+                        <section className="relative bg-[url(/herosvg3.svg)] bg-cover bg-center bg-no-repeat h-screen">
                         <div className="absolute h-full w-full bg-black opacity-70"></div>
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
                                 <div className="max-w-7xl mx-auto text-center text-white">
@@ -113,7 +113,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                             </div>
                         </section>
 
-                        <section className="relative bg-[url(/img4.png)] bg-cover bg-center bg-no-repeat h-screen">
+                        <section className="relative bg-[url(/herosvg4.svg)] bg-cover bg-center bg-no-repeat h-screen">
                         <div className="absolute h-full w-full bg-black opacity-70"></div>
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
                                 <div className="max-w-7xl mx-auto text-center text-white">
