@@ -1,4 +1,4 @@
-//ts-ignore
+//@ts-ignore
 import { Fade } from "react-reveal"
 
 import Footer from '../navbar/Footer'
