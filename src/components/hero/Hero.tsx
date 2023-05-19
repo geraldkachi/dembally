@@ -1,3 +1,5 @@
+//ts-ignore
+import { Fade } from "react-reveal"
 
 import Footer from '../navbar/Footer'
 import { useNavigate } from 'react-router-dom'
@@ -10,7 +12,6 @@ import Subscribe from '../subscribe/Subscribe';
 import RightArrow from '../../assets/svg/RightArrow';
 import LeftArrow from '../../assets/svg/LeftArrow';
 import AboutUs from '../aboutUs/AboutUs';
-import { Rotate, Fade, LightSpeed, } from "react-reveal"
 
 
 interface Props {
