@@ -76,7 +76,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                                         <p className='text-2xl'>- Dembally</p>
                                     </div>
 
-                                    <p className="mt-32 sm:mt-80 mx-auto max-w-screen-2xl sm:text-xl/relaxed text-base">Dembally Limited is a leading real estate development company based in Lagos, Nigeria, dedicated to providing <br />
+                                    <p className="mt-32 lg:mt-80 mx-auto max-w-screen-2xl sm:text-xl/relaxed text-base">Dembally Limited is a leading real estate development company based in Lagos, Nigeria, dedicated to providing <br />
                                         affordable luxury real estate solutions</p>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                                         <p className='text-base font-normal'>- Marshall Field.</p>
                                     </div>
 
-                                    <p className="mt-32 sm:mt-80 mx-auto max-w-screen-2xl sm:text-xl/relaxed text-base">Dembally Limited is a leading real estate development company based in Lagos, Nigeria, dedicated to providing <br /> affordable luxury real estate solutions </p>
+                                    <p className="mt-32 lg:mt-80 mx-auto max-w-screen-2xl sm:text-xl/relaxed text-base">Dembally Limited is a leading real estate development company based in Lagos, Nigeria, dedicated to providing <br /> affordable luxury real estate solutions </p>
                                 </div>
                             </div>
                         </section>
@@ -107,7 +107,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                                         <p className='text-base font-normal'>- Franklin D. Roosevelt</p>
                                     </div>
 
-                                    <p className="mt-32 sm:mt-80 mx-auto max-w-screen-2xl sm:text-xl/relaxed text-base">Dembally Limited is a leading real estate development company based in Lagos, Nigeria, dedicated to providing <br />
+                                    <p className="mt-32 lg:mt-80 mx-auto max-w-screen-2xl sm:text-xl/relaxed text-base">Dembally Limited is a leading real estate development company based in Lagos, Nigeria, dedicated to providing <br />
                                         affordable luxury real estate solutions</p>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                                         <p className='text-base font-normal'>- Robert Kiyosaki</p>
                                     </div>
 
-                                    <p className="mt-32 sm:mt-80 mx-auto max-w-screen-2xl sm:text-xl/relaxed text-base">Dembally Limited is a leading real estate development company based in Lagos, Nigeria, dedicated to providing <br />
+                                    <p className="mt-32 lg:mt-80 mx-auto max-w-screen-2xl sm:text-xl/relaxed text-base">Dembally Limited is a leading real estate development company based in Lagos, Nigeria, dedicated to providing <br />
                                         affordable luxury real estate solutions</p>
                                 </div>
                             </div>
