@@ -8,7 +8,7 @@ const About = () => {
       <div className="absolute top-0 z-10 w-full">
         <Navbar />
       </div>
-      <section className="relative bg-[url(/aboutpage.png)] bg-cover bg-center bg-no-repeat sm:h-screen">
+      <section className="relative bg-[url(/aboutpage.png)] bg-cover bg-center bg-no-repeat lg:h-screen">
       <div className="absolute h-full w-full bg-black opacity-70"></div>
         <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
           <div className="max-w-3xl lg:ml-auto text-center text-white bg-[rgba(24,17,1,0.9)]">

@@ -56,7 +56,7 @@ const Contact = () => {
               <label className="text-sm text-white">Description</label>
               <textarea id="message" rows={3} className="w-full py-1 sm:py-3 text-white border-b border-[]  placeholder:text-white  focus:outline-none focus:ring-0 focus:text-white  bg-transparent"></textarea>
             </div>
-            <button type="submit" className="w-full py-1 sm:py-3 text-white text-sm font-bold tracking-wide uppercase rounded bg-[#BC994B]">Send Message</button>
+            <button type="submit" className="w-full py-3 text-white text-sm font-bold tracking-wide uppercase rounded bg-[#BC994B]">Send Message</button>
           </form>
           </div>
 

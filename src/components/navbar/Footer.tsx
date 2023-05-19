@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className='bg-[#181101]'>
             <footer className=" lg:grid lg:grid-cols-5 bg-[#181101]">
-                <div className="   lg:col-span-2 lg:h-full flex items-center flex-col">
+                <div className="lg:col-span-2 h-full flex items-center flex-col">
                     <img
                         // src="https://images.unsplash.com/photo-1642370324100-324b21fab3a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
                         src={DemballyFoot}
