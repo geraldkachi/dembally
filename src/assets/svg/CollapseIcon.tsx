@@ -10,7 +10,7 @@ const CollapseIcon = (props: SVGProps<SVGSVGElement>) => (
   >
     <path
       d="M10 24h28"
-      stroke="#3B71F7"
+      stroke="#FFEEC8"
       strokeWidth={3}
       strokeLinecap="round"
       strokeLinejoin="round"

@@ -11,7 +11,7 @@ const PlusIcon = (props: SVGProps<SVGSVGElement>) => (
   >
     <path
       d="M24 10v28M10 24h28"
-      stroke="#000"
+      stroke="#FFEEC8"
       strokeWidth={3}
       strokeLinecap="round"
       strokeLinejoin="round"

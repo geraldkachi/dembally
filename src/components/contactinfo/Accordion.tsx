@@ -31,7 +31,7 @@ function Accordion({
 
   return (
     <div
-      className={`relative bg-white rounded-lg max-w-4xl mx-auto mb-4  ${
+      className={`relative bg-transparent rounded-lg max-w-4xl mx-auto mb-4  ${
         openAccordion ? activeClass : ""
       } ${otherClasses || ""}`}
     >
@@ -50,9 +50,9 @@ function Accordion({
           >
             <button type="button">
               {open || openAccordion ? (
-                <CollapseIcon color="#000000" />
+                <CollapseIcon color="#FFEEC8" />
               ) : (
-                <PlusIcon color="#000000" />
+                <PlusIcon color="#FFEEC8" />
               )}
             </button>
             <span style={{flexGrow: 2}} className="font-medium text-left">
