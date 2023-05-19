@@ -1,17 +1,17 @@
 //@ts-ignore
 import { Fade } from "react-reveal"
+import { Modal, Carousel } from "antd";
+import { useNavigate } from 'react-router-dom'
+import { FormEvent, Ref, forwardRef, useState } from 'react'
 
 import Footer from '../navbar/Footer'
-import { useNavigate } from 'react-router-dom'
-import { Modal, Carousel } from "antd";
-import { FormEvent, Ref, forwardRef, useState } from 'react'
 import Navbar from '../navbar/Navbar';
-import Testimonial from '../testimonial/Testimonial';
-import Subscribe from '../subscribe/Subscribe';
-
-import RightArrow from '../../assets/svg/RightArrow';
-import LeftArrow from '../../assets/svg/LeftArrow';
 import AboutUs from '../aboutUs/AboutUs';
+import Subscribe from '../subscribe/Subscribe';
+import LeftArrow from '../../assets/svg/LeftArrow';
+import RightArrow from '../../assets/svg/RightArrow';
+import Testimonial from '../testimonial/Testimonial';
+
 
 
 interface Props {
