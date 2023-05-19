@@ -8,7 +8,7 @@ const About = () => {
       <div className="absolute top-0 z-10 w-full">
         <Navbar />
       </div>
-      <section className="relative bg-[url(/aboutpage.png)] bg-cover bg-center bg-no-repeat h-screen">
+      <section className="relative bg-[url(/aboutpage.png)] bg-cover bg-center bg-no-repeat sm:h-screen">
       <div className="absolute h-full w-full bg-black opacity-70"></div>
         <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
           <div className="max-w-3xl lg:ml-auto text-center text-white bg-[rgba(24,17,1,0.9)]">
@@ -39,7 +39,7 @@ const About = () => {
         </div>
         <div className="grid md:grid-cols-5 gap-5 my-5 py-10">
           <div className="sm:col-span-2 bg-[url(about01.png)] bg-cover bg-center bg-no-repeat h-[538px]"></div>
-          <div className="lg:col-span-1 bg-[url(about02.png)] bg-cover bg-center bg-no-repeat h-[538px] md:h-[500px] my-auto"></div>
+          <div className="sm:col-span-2 md:col-span-1 lg:col-span-1 bg-[url(about02.png)] bg-cover bg-center bg-no-repeat h-[538px] md:h-[500px] my-auto"></div>
           <div className="sm:col-span-2 bg-[url(about03.png)] bg-cover bg-center bg-no-repeat h-[538px]"></div>
         </div>
       </div>

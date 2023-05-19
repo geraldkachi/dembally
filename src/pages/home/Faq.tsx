@@ -83,9 +83,9 @@ const Faq = () => {
       <div>
 
         <div className="">
-          <div className="py-20 object-cover w-full h-full bg-no-repeat bg-cover bg-center mx-auto bg-[url('/faqfirst.png')] bg-black bg-opacity-100">
+          <div className="py-20 sm:py-36 object-cover w-full h-full bg-no-repeat bg-cover bg-center mx-auto bg-[url('/faqfirst.png')] bg-black bg-opacity-100">
           {/* <div className="absolute h-full w-full bg-black opacity-5"></div> */}
-            <div className="mt-40 text-3xl md:text-[56px] text-white font-medium text-center">Frequently Asked Questions</div>
+            <div className="mt-36 text-3xl md:text-[56px] text-white font-medium text-center">Frequently Asked Questions</div>
           </div>
         </div>
 
