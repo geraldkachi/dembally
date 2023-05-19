@@ -26,7 +26,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
         e.preventDefault()
     }
 
-    const SampleNextArrow = props => {
+    const SampleNextArrow = (props: any) => {
         const { className, style, onClick } = props
         return (
             <div
@@ -39,7 +39,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
         )
     }
 
-    const SamplePrevArrow = props => {
+    const SamplePrevArrow = (props: any) => {
         const { className, style, onClick } = props
         return (
             <div
