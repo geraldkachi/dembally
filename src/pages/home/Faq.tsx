@@ -83,16 +83,16 @@ const Faq = () => {
       <div>
 
         <div className="">
-          <div className="py-20 sm:py-36 object-cover w-full h-full bg-no-repeat bg-cover bg-center mx-auto bg-[url('/faqfirst.png')] bg-black bg-opacity-100">
+          <div className="py-20 sm:py-36 object-cover w-full h-full bg-no-repeat bg-cover bg-center mx-auto bg-[url('/faqfirst.svg')] bg-black bg-opacity-100">
           {/* <div className="absolute h-full w-full bg-black opacity-5"></div> */}
             <div className="mt-36 text-3xl md:text-[56px] text-white font-medium text-center">Frequently Asked Questions</div>
           </div>
         </div>
 
-        <div className="object-cover w-full h-full sm:h-screen bg-no-repeat bg-cover bg-center mx-auto bg-[url('/aboutbac.png')] bg-black bg-opacity-100">
+        <div className="object-cover w-full h-full sm:h-screen bg-no-repeat bg-cover bg-center mx-auto bg-[url('/faqsecond.svg')] bg-black bg-opacity-100">
           <div className="absolute h-full w-full bg-black opacity-70 bg-opacity-90"></div>
 
-          <div className="py-20">
+          <div className="pt-20 pb-32">
             <Carousel arrows {...settings}>
               <div className="flex items-center justify-center">
                 {faqArr.map((item, index) => (

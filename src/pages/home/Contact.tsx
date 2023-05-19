@@ -9,7 +9,7 @@ const Contact = () => {
         <Navbar />
       </div>
 
-      <section className="relative bg-[url(/contactimg.png)] bg-cover bg-center bg-no-repeat sm:h-screen">
+      <section className="relative bg-[url(/contactsvg.svg)] bg-cover bg-center bg-no-repeat sm:h-screen">
       <div className="absolute h-full w-full bg-black opacity-40"></div>
 
         <div className="relative mx-auto max-w-screen-xl sm:gap-x-56 px-4 sm:py-32 sm:px-6 lg:flex h-screen lg:items-center lg:px-8">
