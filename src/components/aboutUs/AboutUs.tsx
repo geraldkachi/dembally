@@ -6,13 +6,13 @@ const AboutUs = () => {
     return (
         <>
             <div className="grid md:grid-cols-5 xl:h-screen">
-                <div className="col-span-1 md:col-span-3 bg-slate-400 p-4">
+                <div className="md:col-span-3 bg-slate-400 p-4">
                     <div className="grid grid-cols-3 gap-3 text-orange-300 mt-2">
-                        <div>complete projects across the globe</div>
-                        <div>Sqm of land mass available for development</div>
-                        <div>Satisfied clients all over the globe</div>
+                        <div className="py-10">complete projects across the globe</div>
+                        <div className="py-10">Sqm of land mass available for development</div>
+                        <div className="py-10">Satisfied clients all over the globe</div>
                     </div>
-                    <p>Dembally Limited is a leading real estate development company based in Lagos, Nigeria, dedicated to providing affordable luxury real estate solutions. We specialize in building top-quality residential and commercial properties that cater to investors seeking high returns on investment (ROI) and first-time homebuyers. Our commitment to providing exceptional value is at the heart of our operations, guaranteeing customer satisfaction every step of the way.</p>
+                    <p className="my-10">Dembally Limited is a leading real estate development company based in Lagos, Nigeria, dedicated to providing affordable luxury real estate solutions. We specialize in building top-quality residential and commercial properties that cater to investors seeking high returns on investment (ROI) and first-time homebuyers. Our commitment to providing exceptional value is at the heart of our operations, guaranteeing customer satisfaction every step of the way.</p>
                     <div onClick={() => navigate('about')}>
                         <p className="flex items-center gap-2 cursor-pointer">
                             <span>
@@ -27,8 +27,8 @@ const AboutUs = () => {
                             Read more</p>
                     </div>
                 </div>
-                <div className="col-span-1 md:col-span-2 p-4 overflow-x-hidden">
-                    <div className="absolute h-32 w-32 sm:w-[590px] sm:h-[593px]  mt-24 bg-green-400"></div>
+                <div className="md:col-span-2 p-4 overflow-x-hidden">
+                    {/* <div className="absolute h-32 w-32 sm:w-[590px] sm:h-[593px]  mt-24 bg-green-400"></div> */}
                     <div className="url('/aboutus.svg')] ">wejkjejejj</div>
                 </div>
             </div>

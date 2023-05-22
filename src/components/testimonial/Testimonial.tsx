@@ -13,6 +13,10 @@ const Testimonial = () => {
                         <blockquote className="bg-[#181101] hover:bg-[#2E2105] p-8 text-gray-700 hover:text-white">
                             <div className="hover:text-white">
 
+                                <p className="line-clamp-2 sm:line-clamp-none mt-4">
+                                    Getting a house from this brand has been the best decision i have ever made rightly Getting a house from this brand has been the best decision i have ever made rightly house from this brand has been the best decision.
+                                </p>
+
                                 <div className="flex items-center gap-4">
 
 
@@ -72,18 +76,19 @@ const Testimonial = () => {
 
                                     </div>
                                 </div>
-
-                                <p className="line-clamp-2 sm:line-clamp-none mt-4">
-                                    Getting a house from this brand has been the best decision i have ever made rightly Getting a house from this brand has been the best decision i have ever made rightly house from this brand has been the best decision.
-                                </p>
                                 <hr className="border-1 border-[#c6bba5] my-5" />
                                 <p className="mt-1 text-lg font-medium">Tolulope Afolayan, PhD</p>
+
                             </div>
                         </blockquote>
 
                         <blockquote className="bg-[#181101] hover:bg-[#2E2105] p-8 text-gray-700 hover:text-white">
                             <div className="hover:text-white">
 
+                                <p className="line-clamp-2 sm:line-clamp-none mt-4">
+                                    Getting a house from this brand has been the best decision i have ever made rightly Getting a house from this brand has been the best decision i have ever made rightly house from this brand has been the best decision.
+                                </p>
+
                                 <div className="flex items-center gap-4">
 
 
@@ -143,18 +148,19 @@ const Testimonial = () => {
 
                                     </div>
                                 </div>
-
-                                <p className="line-clamp-2 sm:line-clamp-none mt-4">
-                                    Getting a house from this brand has been the best decision i have ever made rightly Getting a house from this brand has been the best decision i have ever made rightly house from this brand has been the best decision.
-                                </p>
                                 <hr className="border-1 border-[#c6bba5] my-5" />
                                 <p className="mt-1 text-lg font-medium">Tolulope Afolayan, PhD</p>
+
                             </div>
                         </blockquote>
 
                         <blockquote className="bg-[#181101] hover:bg-[#2E2105] p-8 text-gray-700 hover:text-white">
                             <div className="hover:text-white">
 
+                                <p className="line-clamp-2 sm:line-clamp-none mt-4">
+                                    Getting a house from this brand has been the best decision i have ever made rightly Getting a house from this brand has been the best decision i have ever made rightly house from this brand has been the best decision.
+                                </p>
+
                                 <div className="flex items-center gap-4">
 
 
@@ -214,12 +220,9 @@ const Testimonial = () => {
 
                                     </div>
                                 </div>
-
-                                <p className="line-clamp-2 sm:line-clamp-none mt-4">
-                                    Getting a house from this brand has been the best decision i have ever made rightly Getting a house from this brand has been the best decision i have ever made rightly house from this brand has been the best decision.
-                                </p>
                                 <hr className="border-1 border-[#c6bba5] my-5" />
                                 <p className="mt-1 text-lg font-medium">Tolulope Afolayan, PhD</p>
+
                             </div>
                         </blockquote>
                     </div>
