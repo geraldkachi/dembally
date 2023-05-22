@@ -68,7 +68,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
 
                     <Carousel autoplay arrows {...settings}>
                         <section className="relative bg-[url(/herosvg.svg)] bg-cover bg-center bg-no-repeat h-screen">
-                        <div className="absolute h-full w-full bg-black opacity-70"></div>
+                            <div className="absolute h-full w-full bg-black opacity-70"></div>
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
                                 <div className="max-w-7xl mx-auto text-center text-white">
                                     <div className="text-3xl font-extrabold sm:text-6xl pt-40 lg:pt-56">
@@ -83,7 +83,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                         </section>
 
                         <section className="relative bg-[url(/herosvg2.svg)] bg-cover bg-center bg-no-repeat h-screen">
-                        <div className="absolute h-full w-full bg-black opacity-70"></div>
+                            <div className="absolute h-full w-full bg-black opacity-70"></div>
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
                                 <div className="max-w-7xl mx-auto text-center text-white">
                                     <div className="text-3xl font-extrabold sm:text-6xl pt-40 lg:pt-56">
@@ -98,7 +98,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                         </section>
 
                         <section className="relative bg-[url(/herosvg3.svg)] bg-cover bg-center bg-no-repeat h-screen">
-                        <div className="absolute h-full w-full bg-black opacity-70"></div>
+                            <div className="absolute h-full w-full bg-black opacity-70"></div>
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
                                 <div className="max-w-7xl mx-auto text-center text-white">
                                     <div className="text-3xl font-extrabold sm:text-6xl pt-40 lg:pt-56">
@@ -114,7 +114,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                         </section>
 
                         <section className="relative bg-[url(/herosvg4.svg)] bg-cover bg-center bg-no-repeat h-screen">
-                        <div className="absolute h-full w-full bg-black opacity-70"></div>
+                            <div className="absolute h-full w-full bg-black opacity-70"></div>
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
                                 <div className="max-w-7xl mx-auto text-center text-white">
                                     <div className="text-3xl font-extrabold sm:text-6xl pt-40 lg:pt-56 ">
@@ -135,7 +135,6 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
             </div>
             <section className='max-w-screen-2xl mx-auto'>
 
-
             </section>
 
             <Fade left>
@@ -143,8 +142,16 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
             </Fade>
 
             <Testimonial />
-            <div className="bg-cover bg-[url(/part.svg)] bg-center bg-no-repeat h-screen">
-
+            <div className="bg-cover bg-[url(/part.svg)] bg-center bg-no-repeat h-[400px] bg-opacity-90">
+                <div className="absolute h-[400px] flex-1 w-full bg-black opacity-90"></div>
+                <div className="relative mx-auto max-w-screen-xl px-4 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+                    <div className="max-w-3xl lg:ml-auto text-center text-white">
+                        <div className="text-3xl text-left font-extrabold sm:text-6xl p-5 md:p-20">
+                            <h1 className="py-10">Luxury Living<br /> Redefined</h1>
+                            <p className='text-base'>Dembally Limited is a leading real estate development company based in Lagos, Nigeria, dedicated to providing affordable luxury real estate solutions. We specialize in building top-quality residential and commercial properties that cater to investors seeking high returns on investment (ROI) and first-time homebuyers. Our commitment to providing exceptional value is at the heart of our operations, guaranteeing customer satisfaction every step of the way.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <Subscribe />
