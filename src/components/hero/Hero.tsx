@@ -143,6 +143,9 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
             </Fade>
 
             <Testimonial />
+            <div className="bg-cover bg-[url(/part.svg)] bg-center bg-no-repeat h-screen">
+
+            </div>
 
             <Subscribe />
 

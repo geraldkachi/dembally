@@ -10,7 +10,7 @@ const Testimonial = () => {
                     <hr className="text-[#2E2105] mt-5 " />
 
                     <div className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-2">
-                        <blockquote className="bg-[#181101] hover:bg-[#2E2105] p-8 text-gray-700 hover:text-white">
+                        <blockquote className="bg-[#181101] hover:bg-[#2E2105] p-8 text-white hover:text-white">
                             <div className="hover:text-white">
 
                                 <p className="line-clamp-2 sm:line-clamp-none mt-4">
@@ -82,7 +82,7 @@ const Testimonial = () => {
                             </div>
                         </blockquote>
 
-                        <blockquote className="bg-[#181101] hover:bg-[#2E2105] p-8 text-gray-700 hover:text-white">
+                        <blockquote className="bg-[#181101] hover:bg-[#2E2105] p-8 text-white hover:text-white">
                             <div className="hover:text-white">
 
                                 <p className="line-clamp-2 sm:line-clamp-none mt-4">
@@ -154,7 +154,7 @@ const Testimonial = () => {
                             </div>
                         </blockquote>
 
-                        <blockquote className="bg-[#181101] hover:bg-[#2E2105] p-8 text-gray-700 hover:text-white">
+                        <blockquote className="bg-[#181101] hover:bg-[#2E2105] p-8 text-white hover:text-white">
                             <div className="hover:text-white">
 
                                 <p className="line-clamp-2 sm:line-clamp-none mt-4">
