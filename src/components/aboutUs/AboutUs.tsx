@@ -4,9 +4,9 @@ const AboutUs = () => {
     const navigate = useNavigate()
 
     return (
-        <div className="bg-[url(/abtbg.svg)] bg-black opacity-95 bg-cover bg-center bg-no-repeat h-screen">
+        <div className="bg-[url(/abtbg.svg)] bg-black opacity-95 bg-cover bg-center bg-no-repeat h-full md:h-screen">
             <div className="absolute h-full w-full bg-black bg-opacity-95"></div>
-            <div className="relative grid md:grid-cols-5 xl:h-screen max-w-7xl mx-auto gap-x-4">
+            <div className="relative grid md:grid-cols-5 xl:h-screen max-w-7xl mx-auto gap-x-4 md:pt-20">
                 <div className="md:col-span-3 p-4 gird">
                     <div className="grid grid-cols-3 gap-3 text-orange-300 mt-2">
                         <div className="py-10">
@@ -34,9 +34,9 @@ const AboutUs = () => {
                             Read more</p>
                     </div>
                 </div>
-                <div className="col-span-1 md:col-span-2 overflow-hidden sm:relative">
-                    <img src="/abtus.svg" className="sm:absolute z-10 url('/abtus.svg')] bg-cover bg-center bg-no-repeat h-screen sm:h-[700px] px-6" alt="life" />
-                    <div className="absolute sm:w-[590px] bg-[#81672C] sm:h-[500px] h-screen mt-36"></div>
+                <div className="col-span-1 md:col-span-2 md:overflow-hidden relative pb-40">
+                    <img src="/abtus.svg" className="sm:absolute z-10 url('/abtus.svg')] bg-cover bg-center bg-no-repeat h-full sm:h-[700px] px-6" alt="life" />
+                    <div className="absolute sm:w-[590px] bg-[#81672C] lg:h-[500px] h-screen mt-36"></div>
                 </div>
             </div>
         </div>
