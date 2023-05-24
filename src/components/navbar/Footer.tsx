@@ -36,13 +36,13 @@ const Footer = () => {
                                 </a>
                             </p>
                             <p>
-                                <hr className='bg-white my-3 md:my-20' />
-                                <span className="block text-2xl font-medium hover:opacity-75 sm:text-3xl mt-10 text-white uppercase">Email</span>
+                                <hr className='bg-white mt-20 mb-10' />
+                                <span className="block  text-xs tracking-wide mb-3 text-white uppercaseercase">Email</span>
 
 
                                 <a
                                     href="#"
-                                    className="  text-xs tracking-wide mb-3 text-white uppercase"
+                                    className="  text-xs tracking-wide my-3 text-white uppercase"
                                 >
                                     clientservices@dembally.com
                                 </a>
