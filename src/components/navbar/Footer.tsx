@@ -6,7 +6,6 @@ const Footer = () => {
             <footer className=" lg:grid lg:grid-cols-5 bg-[#181101] max-w-screen-2xl mx-auto">
                 <div className="lg:col-span-2 h-full flex items-center flex-col justify-center">
                     <img
-                        // src="https://images.unsplash.com/photo-1642370324100-324b21fab3a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
                         src={DemballyFoot}
                         alt="lla"
                         className=" inset-0 object-cover p-3"
@@ -66,13 +65,13 @@ const Footer = () => {
                                 {/* <hr className='bg-white my-5' /> */}
                                 <nav className="mt-6 text-base">
                                     {/* icon new */}
-                                    <ul className="flex gap-6 mt-8">
+                                    <ul className="flex gap-6 mt-8 text-[#F6CD72]">
                                         <li>
                                             <a
                                                 href="/"
                                                 rel="noreferrer"
                                                 target="_blank"
-                                                className="text-gray-700 transition hover:opacity-75"
+                                                className="text-[#F6CD72] transition hover:opacity-75"
                                             >
                                                 <span className="sr-only">Facebook</span>
 
@@ -96,7 +95,7 @@ const Footer = () => {
                                                 href="/"
                                                 rel="noreferrer"
                                                 target="_blank"
-                                                className="text-gray-700 transition hover:opacity-75"
+                                                className="text-[#F6CD72] transition hover:opacity-75"
                                             >
                                                 <span className="sr-only">Instagram</span>
 
@@ -120,7 +119,7 @@ const Footer = () => {
                                                 href="/"
                                                 rel="noreferrer"
                                                 target="_blank"
-                                                className="text-gray-700 transition hover:opacity-75"
+                                                className="text-[#F6CD72] transition hover:opacity-75"
                                             >
                                                 <span className="sr-only">Twitter</span>
 
@@ -142,7 +141,7 @@ const Footer = () => {
                                                 href="/"
                                                 rel="noreferrer"
                                                 target="_blank"
-                                                className="text-gray-700 transition hover:opacity-75"
+                                                className="text-[#F6CD72] transition hover:opacity-75"
                                             >
                                                 <span className="sr-only">GitHub</span>
 
@@ -166,7 +165,7 @@ const Footer = () => {
                                                 href="/"
                                                 rel="noreferrer"
                                                 target="_blank"
-                                                className="text-gray-700 transition hover:opacity-75"
+                                                className="text-[#F6CD72] transition hover:opacity-75"
                                             >
                                                 <span className="sr-only">Dribbble</span>
 
