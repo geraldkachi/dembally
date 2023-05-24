@@ -198,7 +198,7 @@ const Footer = () => {
 
             <div className="py-12 border-t border-gray-100 max-w-screen-2xl mx-auto">
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <p className="mt-8 text-base text-white sm:mt-0">
+                    <p className="mt-8 text-base text-white sm:mt-0 px-4">
                         &copy; {date.getFullYear()} Dembally. All rights reserved.
                     </p>
                 </div>
