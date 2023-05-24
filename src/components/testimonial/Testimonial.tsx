@@ -4,7 +4,7 @@ const Testimonial = () => {
         <div className="bg-[#181101] py-10">
             <section className="">
                 <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
-                    <h2 className=" text-4xl font-bold tracking-tight sm:text-5xl text-white">
+                    <h2 className=" text-4xl font-bold tracking-tight sm:text-5xl text-white cinz">
                         Testimonial
                     </h2>
                     <hr className="text-[#2E2105] mt-5 " />
@@ -77,7 +77,7 @@ const Testimonial = () => {
                                     </div>
                                 </div>
                                 <hr className="border-1 border-[#c6bba5] my-3" />
-                                <p className="mt-1 text-lg font-medium">Tolulope Afolayan, PhD</p>
+                                <p className="mt-1 text-lg font-medium bodoni">Tolulope Afolayan, PhD</p>
 
                             </div>
                         </blockquote>
@@ -149,7 +149,7 @@ const Testimonial = () => {
                                     </div>
                                 </div>
                                 <hr className="border-1 border-[#c6bba5] my-3" />
-                                <p className="mt-1 text-lg font-medium">Tolulope Afolayan, PhD</p>
+                                <p className="mt-1 text-lg font-medium bodoni">Tolulope Afolayan, PhD</p>
 
                             </div>
                         </blockquote>
@@ -221,7 +221,7 @@ const Testimonial = () => {
                                     </div>
                                 </div>
                                 <hr className="border-1 border-[#c6bba5] my-3" />
-                                <p className="mt-1 text-lg font-medium">Tolulope Afolayan, PhD</p>
+                                <p className="mt-1 text-lg font-medium bodoni">Tolulope Afolayan, PhD</p>
 
                             </div>
                         </blockquote>

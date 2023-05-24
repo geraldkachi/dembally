@@ -3,7 +3,7 @@ const Footer = () => {
     const date = new Date()
     return (
         <div className='bg-[#181101]'>
-            <footer className=" lg:grid lg:grid-cols-5 bg-[#181101] max-w-screen-2xl mx-auto">
+            <footer className=" lg:grid lg:grid-cols-5 gap-4 bg-[#181101] max-w-7xl mx-auto">
                 <div className="lg:col-span-2 h-full flex items-center flex-col justify-center">
                     <img
                         src={DemballyFoot}
@@ -24,7 +24,7 @@ const Footer = () => {
                     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
                         <div>
                             <p>
-                                <hr className='bg-white my-5' />
+                                <hr className='bg-white my-3 md:my-5' />
                                 <span className="text-xs tracking-wide mb-3 text-white uppercase">Phone Number</span>
 
 
@@ -36,7 +36,7 @@ const Footer = () => {
                                 </a>
                             </p>
                             <p>
-                                <hr className='bg-white my-20' />
+                                <hr className='bg-white my-3 md:my-20' />
                                 <span className="block text-2xl font-medium hover:opacity-75 sm:text-3xl mt-10 text-white uppercase">Email</span>
 
 
@@ -51,9 +51,9 @@ const Footer = () => {
                             {/* icons */}
                         </div>
 
-                        <div className="grid grid-cols-1 gap-4 text-white">
+                        <div className="grid grid-cols-1 gap-10 text-white">
                             <div className="">
-                                <hr className='bg-white my-5' />
+                                <hr className='bg-white my-3 md:my-5' />
 
                                 <p className="font-medium text-base">Address</p>
 
@@ -62,7 +62,7 @@ const Footer = () => {
                                 </nav>
                             </div>
                             <div className="">
-                                {/* <hr className='bg-white my-5' /> */}
+                                {/* <hr className='bg-white my-3 md:my-5' /> */}
                                 <nav className="mt-6 text-base">
                                     {/* icon new */}
                                     <ul className="flex gap-6 mt-8 text-[#F6CD72]">
@@ -195,8 +195,8 @@ const Footer = () => {
 
 
             </footer>
-
-            <div className="py-12 border-t border-gray-100  max-w-screen-2xl mx-auto">
+            <hr className='border-t border-[#FFFAF1] max-w-7xl mx-auto' />
+            <div className="py-5 md:py-12 max-w-7xl mx-auto">
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <p className="mt-8 text-base text-white sm:mt-0 px-4">
                         &copy; {date.getFullYear()} Dembally. All rights reserved.

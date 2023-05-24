@@ -46,7 +46,7 @@ const OurService = () => {
 
                     <div className="flex items-center justify-center text-black p-6">
                         <div>
-                            <p className="text-3xl md:text-5xl my-5">Property Brokerage</p>
+                            <p className="text-3xl md:text-5xl my-5 cinz">Property Brokerage</p>
                             <p className="my-10 text-base text-">Dembally Limited is a leading real estate development company based in Lagos, Nigeria, dedicated to providing affordable luxury real estate solutions. We specialize in building top-quality residential and commercial properties that cater to investors seeking high returns on investment (ROI) and first-time homebuyers. Our commitment to providing exceptional value is at the heart of our operations, guaranteeing customer satisfaction every step of the way.</p>
                             <div>
                                 <p className="flex items-center gap-2 cursor-pointer">
@@ -74,7 +74,7 @@ const OurService = () => {
 
                     <div className="flex items-center justify-center text-black p-6">
                         <div>
-                            <p className="text-3xl md:text-5xl my-5">Project Management</p>
+                            <p className="text-3xl md:text-5xl my-5 cinz">Project Management</p>
                             <p className="my-10 text-base text-">Dembally Limited is a leading real estate development company based in Lagos, Nigeria, dedicated to providing affordable luxury real estate solutions. We specialize in building top-quality residential and commercial properties that cater to investors seeking high returns on investment (ROI) and first-time homebuyers. Our commitment to providing exceptional value is at the heart of our operations, guaranteeing customer satisfaction every step of the way.</p>
                             <div>
                                 <p className="flex items-center gap-2 cursor-pointer">

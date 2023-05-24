@@ -12,6 +12,8 @@ import LeftArrow from '../../assets/svg/LeftArrow';
 import RightArrow from '../../assets/svg/RightArrow';
 import Testimonial from '../testimonial/Testimonial';
 import OurService from "../our-service/OurService";
+import WordlClass from "../world-class/WordlClass";
+import OurPartners from "../ourpartners/OurPartners";
 
 
 
@@ -73,7 +75,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
                                 <div className="max-w-7xl mx-auto text-center text-white">
                                     <div className="text-3xl font-extrabold sm:text-6xl pt-40 lg:pt-56">
-                                        <h1 className='pb-10'>Discover Luxurious Living, Redefined</h1>
+                                        <h1 className='pb-10 cinz'>Discover Luxurious Living, Redefined</h1>
                                         <p className='text-2xl'>- Dembally</p>
                                     </div>
 
@@ -88,7 +90,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
                                 <div className="max-w-7xl mx-auto text-center text-white">
                                     <div className="text-3xl font-extrabold sm:text-6xl pt-40 lg:pt-56">
-                                        <h1 className='pb-10'>Class</h1>
+                                        <h1 className='pb-10 cinz'>Class</h1>
                                         <p className='text-base font-light'>Buying real estate is not only the best way, the quickest way, the safest way, but the only <br className="hidden md:block" /> way to become wealthy.</p>
                                         <p className='text-base font-normal'>- Marshall Field.</p>
                                     </div>
@@ -103,7 +105,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
                                 <div className="max-w-7xl mx-auto text-center text-white">
                                     <div className="text-3xl font-extrabold sm:text-6xl pt-40 lg:pt-56">
-                                        <h1 className='pb-10'>Luxury</h1>
+                                        <h1 className='pb-10 cinz'>Luxury</h1>
                                         <p className='text-base font-light'>“Real estate cannot be lost or stolen, nor can it be carried away. Purchased with common sense, paid for in full, and managed with reasonable care, it is about the safest investment in the world." </p>
                                         <p className='text-base font-normal'>- Franklin D. Roosevelt</p>
                                     </div>
@@ -119,7 +121,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
                                 <div className="max-w-7xl mx-auto text-center text-white">
                                     <div className="text-3xl font-extrabold sm:text-6xl pt-40 lg:pt-56 ">
-                                        <h1 className='pb-10'>Elegance</h1>
+                                        <h1 className='pb-10 cinz'>Elegance</h1>
                                         <p className='text-base font-light'>“Real estate investing, even on a very small scale, remains a tried and true means of building an individual's cash flow and wealth."</p>
                                         <p className='text-base font-normal'>- Robert Kiyosaki</p>
                                     </div>
@@ -145,20 +147,21 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                 <OurService />
             </Fade>
 
-            <Testimonial />
-            {/* // <WordlClass /> */}
-            <div className="bg-cover bg-[url(/part.svg)] bg-center bg-no-repeat h-[500px] bg-opacity-90 my-auto">
+            <OurPartners />
+            <div className="bg-cover bg-[url(/part.svg)] bg-center bg-no-repeat h-[500px] bg-opacity-90 my-auto py-auto ">
                 <div className="absolute h-[500px] flex-1 w-full bg-black opacity-90"></div>
-                <div className="relative mx-auto max-w-screen-xl px-4 sm:px-6 lg:items-center lg:px-8 ">
+                <div className="relative mx-auto py-auto pt-10 sm:pt-20 max-w-screen-xl px-4 sm:px-6 lg:items-center lg:px-8 ">
                     <div className="max-w-3xl lg:ml-auto text-center text-white">
                         <div className="text-3xl text-left font-extrabold sm:text-6xl">
-                            <h1 className="py-10">Luxury Living<br /> Redefined</h1>
+                            <h1 className="py-10 cinz">Luxury Living<br /> Redefined</h1>
                             <p className='text-base'>Dembally Limited is a leading real estate development company based in Lagos, Nigeria, dedicated to providing affordable luxury real estate solutions. We specialize in building top-quality residential and commercial properties that cater to investors seeking high returns on investment (ROI) and first-time homebuyers. Our commitment to providing exceptional value is at the heart of our operations, guaranteeing customer satisfaction every step of the way.</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <WordlClass />
 
+            <Testimonial />
             <Subscribe />
 
             <div ref={ref} id="contact">
@@ -166,8 +169,8 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
             </div>
 
             <section className="py-6 bg-[#181101]">
-                <div className="max-w-7xl mx-auto flex flex-col items-center justify-center p-4 space-y-8 md:p-10 lg:space-y-0 lg:flex-row lg:justify-between">
-                    <h1 className="text-3xl font-semibold leading-tight text-center lg:text-left text-white">Having any enquiries to make or thoughts to share?</h1>
+                <div className="max-w-7xl border-b border-[#FFFAF1]  mx-auto flex flex-col items-center justify-center p-4 space-y-8 md:p-10 lg:space-y-0 lg:flex-row lg:justify-between">
+                    <h1 className="text-3xl font-semibold leading-tight text-center lg:text-left text-white cinz">Having any enquiries to make or thoughts to share?</h1>
                     <button className="px-20 py-5 text-lg font-semibold rounded bg-[#BC994B] text-white">Let&apos;s Talk</button>
                 </div>
             </section>

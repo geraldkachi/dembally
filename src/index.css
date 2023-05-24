@@ -3,24 +3,19 @@
 @tailwind utilities;
 
 :root {
-  font-family: "Cinzel", serif;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Bodoni Moda', serif;
+  font-family: 'Cinzel', serif;
+  font-family: 'Source Sans Pro', sans-serif;
 
   line-height: 1.5;
   font-weight: 400;
   -webkit-text-size-adjust: 100%;
 }
-.manrope {
-  font-family: "Manrope" !important;
+.cinz {
+  font-family: "Cinzel", serif;
 }
-.jakarta {
-  font-family: "Plus Jakarta Sans" !important;
-}
-.roboto {
-  font-family: "Roboto" !important;
-}
-.neue {
-  font-family: "Neue Haas Grotesk Display Pro" !important;
+.bodoni {
+  font-family: 'Bodoni Moda', serif;
 }
 
 .ant-select-focused .ant-select-selector,

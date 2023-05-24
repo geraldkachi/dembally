@@ -6,7 +6,7 @@ const Subscribe = () => {
             <section className="bg-[#fffaf1]">
                 <div className="p-8 md:p-12 lg:px-16 lg:py-24">
                     <div className="mx-auto max-w-4xl text-center">
-                        <h2 className="text-2xl font-bold text-[##2E2105] md:text-3xl">
+                        <h2 className="text-2xl font-bold text-[##2E2105] md:text-3xl cinz">
                             Subscribe to our newsletter
                         </h2>
 
