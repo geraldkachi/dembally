@@ -20,7 +20,7 @@ const Testimonial = () => {
                                 <div className="flex items-center gap-4">
 
 
-                                    <div>
+                                    <div className="my-4">
                                         <div className="flex justify-center text-orange-300">
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ const Testimonial = () => {
 
                                     </div>
                                 </div>
-                                <hr className="border-1 border-[#c6bba5] my-5" />
+                                <hr className="border-1 border-[#c6bba5] my-3" />
                                 <p className="mt-1 text-lg font-medium">Tolulope Afolayan, PhD</p>
 
                             </div>
@@ -92,7 +92,7 @@ const Testimonial = () => {
                                 <div className="flex items-center gap-4">
 
 
-                                    <div>
+                                    <div className="my-4">
                                         <div className="flex justify-center text-orange-300">
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
@@ -148,7 +148,7 @@ const Testimonial = () => {
 
                                     </div>
                                 </div>
-                                <hr className="border-1 border-[#c6bba5] my-5" />
+                                <hr className="border-1 border-[#c6bba5] my-3" />
                                 <p className="mt-1 text-lg font-medium">Tolulope Afolayan, PhD</p>
 
                             </div>
@@ -164,7 +164,7 @@ const Testimonial = () => {
                                 <div className="flex items-center gap-4">
 
 
-                                    <div>
+                                    <div className="my-4">
                                         <div className="flex justify-center text-orange-300">
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
@@ -220,7 +220,7 @@ const Testimonial = () => {
 
                                     </div>
                                 </div>
-                                <hr className="border-1 border-[#c6bba5] my-5" />
+                                <hr className="border-1 border-[#c6bba5] my-3" />
                                 <p className="mt-1 text-lg font-medium">Tolulope Afolayan, PhD</p>
 
                             </div>
