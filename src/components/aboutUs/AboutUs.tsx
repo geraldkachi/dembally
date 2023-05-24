@@ -10,13 +10,13 @@ const AboutUs = () => {
                 <div className="md:col-span-3 p-4 gird">
                     <div className="grid grid-cols-3 gap-3 text-orange-300 mt-2">
                         <div className="py-10">
-                            <div className="text-6xl text-[#D9B35E]">25k+</div>
+                            <div className="text-4xl sm:text-6xl text-[#D9B35E]">25k+</div>
                             complete projects across the globe</div>
                         <div className="py-10">
-                            <div className="text-6xl text-[#D9B35E]">35k+</div>
+                            <div className="text-4xl sm:text-6xl text-[#D9B35E]">35k+</div>
                             Sqm of land mass available for development</div>
                         <div className="py-10">
-                            <div className="text-6xl text-[#D9B35E]">3k+</div>
+                            <div className="text-4xl sm:text-6xl text-[#D9B35E]">3k+</div>
                             Satisfied clients all over the globe</div>
                     </div>
                     <p className="my-10 text-white text-base text-">Dembally Limited is a leading real estate development company based in Lagos, Nigeria, dedicated to providing affordable luxury real estate solutions. We specialize in building top-quality residential and commercial properties that cater to investors seeking high returns on investment (ROI) and first-time homebuyers. Our commitment to providing exceptional value is at the heart of our operations, guaranteeing customer satisfaction every step of the way.</p>
