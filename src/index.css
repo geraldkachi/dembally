@@ -3,11 +3,8 @@
 @tailwind utilities;
 
 :root {
-  /* font-family: "Plus Jakarta Sans", "Manrope", "Roboto", sans-serif; */
-  font-family: "Manrope", sans-serif;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-family: "Roboto", sans-serif;
-  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+  font-family: "Cinzel", serif;
+  font-family: "Source Sans Pro", sans-serif;
 
   line-height: 1.5;
   font-weight: 400;
@@ -23,7 +20,7 @@
   font-family: "Roboto" !important;
 }
 .neue {
-  font-family: 'Neue Haas Grotesk Display Pro' !important;
+  font-family: "Neue Haas Grotesk Display Pro" !important;
 }
 
 .ant-select-focused .ant-select-selector,
@@ -35,7 +32,7 @@
   border-color: white !important;
   box-shadow: none !important;
 }
-.ant-select-selector{
+.ant-select-selector {
   border-color: white !important;
   /* margin: 30px !important;
   padding: 5px !important; */
@@ -43,7 +40,6 @@
 .dropDown {
   background-color: antiquewhite;
 }
-
 
 .ant-carousel .slick-prev,
 .ant-carousel .slick-next {
@@ -58,13 +54,11 @@
   color: unset;
 }
 
-
 .carouselImg {
-  background-image: url('./assets/svg/herosvg.svg') !important;
+  background-image: url("./assets/svg/herosvg.svg") !important;
   width: 100% !important;
   height: 300px;
 }
-
 
 .ant-carousel .slick-prev,
 .ant-carousel .slick-next {
@@ -73,13 +67,12 @@
 }
 
 @media screen and (max-width: 768px) {
-
-.ant-carousel .slick-prev,
-.ant-carousel .slick-next {
-  color: unset;
-  font-size: unset;
-  display: none !important;
-}
+  .ant-carousel .slick-prev,
+  .ant-carousel .slick-next {
+    color: unset;
+    font-size: unset;
+    display: none !important;
+  }
 }
 
 .ant-carousel .slick-prev:hover,
