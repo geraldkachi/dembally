@@ -148,7 +148,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
             <Testimonial />
             <div className="bg-cover bg-[url(/part.svg)] bg-center bg-no-repeat h-[500px] bg-opacity-90 my-auto">
                 <div className="absolute h-[500px] flex-1 w-full bg-black opacity-90"></div>
-                <div className="relative mx-auto max-w-screen-xl px-4 sm:px-6  lg:h-screen lg:items-center lg:px-8 py-auto">
+                <div className="relative mx-auto max-w-screen-xl px-4 sm:px-6 lg:items-center lg:px-8 ">
                     <div className="max-w-3xl lg:ml-auto text-center text-white">
                         <div className="text-3xl text-left font-extrabold sm:text-6xl">
                             <h1 className="py-10">Luxury Living<br /> Redefined</h1>

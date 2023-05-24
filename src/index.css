@@ -64,3 +64,27 @@
   width: 100% !important;
   height: 300px;
 }
+
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  color: unset;
+  font-size: unset;
+}
+
+@media screen and (max-width: 768px) {
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  color: unset;
+  font-size: unset;
+  display: none !important;
+}
+}
+
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:focus,
+.ant-carousel .slick-next:focus {
+  color: unset;
+}
