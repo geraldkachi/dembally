@@ -146,7 +146,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
             </Fade>
 
             <Testimonial />
-            <WordlClass />
+            {/* <WordlClass /> */}
             <div className="bg-cover bg-[url(/part.svg)] bg-center bg-no-repeat h-[500px] bg-opacity-90 my-auto">
                 <div className="absolute h-[500px] flex-1 w-full bg-black opacity-90"></div>
                 <div className="relative mx-auto max-w-screen-xl px-4 sm:px-6 lg:items-center lg:px-8 ">
