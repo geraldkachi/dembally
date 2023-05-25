@@ -73,7 +73,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                         <section className="relative bg-[url(/herosvg.svg)] bg-cover bg-center bg-no-repeat h-screen">
                             <div className="absolute h-full w-full bg-black opacity-70"></div>
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
-                                <div className="max-w-7xl mx-auto text-center text-white">
+                                <div className="max-w-4xl mx-auto text-center text-white">
                                     <div className="text-3xl font-extrabold sm:text-6xl pt-36 lg:pt-40">
                                         <h1 className='pb-10 cinz'>Discover Luxurious Living, Redefined</h1>
                                         <p className='text-2xl'>- Dembally</p>
@@ -88,7 +88,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                         <section className="relative bg-[url(/herosvg2.svg)] bg-cover bg-center bg-no-repeat h-screen">
                             <div className="absolute h-full w-full bg-black opacity-70"></div>
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
-                                <div className="max-w-7xl mx-auto text-center text-white">
+                                <div className="max-w-4xl mx-auto text-center text-white">
                                     <div className="text-3xl font-extrabold sm:text-6xl pt-36 lg:pt-40">
                                         <h1 className='pb-10 cinz'>Class</h1>
                                         <p className='text-base font-light'>Buying real estate is not only the best way, the quickest way, the safest way, but the only <br className="hidden md:block" /> way to become wealthy.</p>
@@ -103,7 +103,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                         <section className="relative bg-[url(/herosvg3.svg)] bg-cover bg-center bg-no-repeat h-screen">
                             <div className="absolute h-full w-full bg-black opacity-70"></div>
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
-                                <div className="max-w-7xl mx-auto text-center text-white">
+                                <div className="max-w-4xl mx-auto text-center text-white">
                                     <div className="text-3xl font-extrabold sm:text-6xl pt-36 lg:pt-40">
                                         <h1 className='pb-10 cinz'>Luxury</h1>
                                         <p className='text-base font-light'>“Real estate cannot be lost or stolen, nor can it be carried away. Purchased with common sense, paid for in full, and managed with reasonable care, it is about the safest investment in the world." </p>
@@ -119,7 +119,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
                         <section className="relative bg-[url(/herosvg4.svg)] bg-cover bg-center bg-no-repeat h-screen">
                             <div className="absolute h-full w-full bg-black opacity-70"></div>
                             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
-                                <div className="max-w-7xl mx-auto text-center text-white">
+                                <div className="max-w-4xl mx-auto text-center text-white">
                                     <div className="text-3xl font-extrabold sm:text-6xl pt-36 lg:pt-40 ">
                                         <h1 className='pb-10 cinz'>Elegance</h1>
                                         <p className='text-base font-light'>“Real estate investing, even on a very small scale, remains a tried and true means of building an individual's cash flow and wealth."</p>

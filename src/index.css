@@ -78,16 +78,28 @@
 }
 /* .ant-carousel  .carousel-indicators .li    */
 /* .slick-dots li  button >  */
-.slick-active button{
+.slick-active > button{
   background-color: #81672C !important;
 }
 /* .slick-dots li button{} */
+
+@media screen and (min-width: 765px) {
+  .slick-dots li {
+    background-color: #81672C  !important;
+    width: 100px !important;
+    padding: 4px !important;
+    border-radius: 10px !important;
+    row-gap: 20px !important;
+    background: transparent !important;
+    margin-right: 40px !important;
+  }
+}
 .slick-dots li {
   background-color: #81672C  !important;
-  width: 100px !important;
-  padding: 4px !important;
+  /* width: 100px !important; */
+  /* padding: 4px !important; */
   border-radius: 10px !important;
-  row-gap: 20px !important;
+  /* row-gap: 3px !important; */
   background: transparent !important;
-  margin-right: 40px !important;
+  /* margin-right: 40px !important; */
 }

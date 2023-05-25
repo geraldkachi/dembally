@@ -46,7 +46,7 @@ function Accordion({
         >
           <div
             onClick={toggleAccordion}
-            className={`flex cursor-pointer items-center justify-between py-2 space-x-3 `}
+            className={`flex cursor-pointer items-center justify-between py-2 space-x-3 bg-transparent`}
           >
             <button type="button">
               {open || openAccordion ? (
