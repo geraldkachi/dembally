@@ -10,36 +10,36 @@ import LeftArrow from '../../assets/svg/LeftArrow';
 const faqArr = [
   {
     header: 'What types of properties does Dembally Limited offer?',
-    content: `The Music Rater app is a tool specifically designed for musicians to rate their own music and get feedback from other musicians. It allows musicians to create a profile, upload their music, and receive ratings and comments from other users on the platform.`
+    content: `We offer a range of affordable luxury residential and commercial properties, thoughtfully designed to cater to various requirements and budgets of investors and first-time homebuyers in Lagos, Nigeria.`
   },
   {
-    header: 'How do I register on the Platform?',
-    content: `The Music Rater app is a tool specifically designed for musicians to rate their own music and get feedback from other musicians. It allows musicians to create a profile, upload their music, and receive ratings and comments from other users on the platform.`
+    header: 'What sets Dembally Limited apart from other real estate developers?',
+    content: `Our unique selling proposition lies in our commitment to providing properties with notable ROI for investors and comfortable homes for first-time buyers. We also prioritize energy efficiency, security, clean water, and a child-friendly environment, along with a transparent and comprehensive after-build property management system.`
   },
   {
-    header: 'How does the rating system work?',
-    content: `The Music Rater app is a tool specifically designed for musicians to rate their own music and get feedback from other musicians. It allows musicians to create a profile, upload their music, and receive ratings and comments from other users on the platform.`
+    header: 'Do your properties come with land approval from the government?',
+    content: `Yes, all our properties come with the necessary government land approvals to ensure seamless ownership transitions and avoid any complications for our clients.`
   },
   {
-    header: 'Can i  upload any type of song  on Music Rater?',
-    content: `The Music Rater app is a tool specifically designed for musicians to rate their own music and get feedback from other musicians. It allows musicians to create a profile, upload their music, and receive ratings and comments from other users on the platform.`
+    header: 'What flexible payment options do you offer?',
+    content: `At Dembally Limited, we understand that each client has unique financial needs. We offer convenient payment options, tailored to suit various budgets, ensuring that our luxury properties remain accessible and affordable.`
   },
   {
-    header: 'Do I get feedbacks from other artists on the platform?',
-    content: `The Music Rater app is a tool specifically designed for musicians to rate their own music and get feedback from other musicians. It allows musicians to create a profile, upload their music, and receive ratings and comments from other users on the platform.`
+    header: 'Do you provide after-build property management services??',
+    content: `Yes, we take pride in our transparent and comprehensive after-build property management system, which allows our clients to enjoy a stress-free experience and maintain the value of their investment.`
   },
   {
-    header: 'Is the Music Rater app free to use?',
-    content: `The Music Rater app is a tool specifically designed for musicians to rate their own music and get feedback from other musicians. It allows musicians to create a profile, upload their music, and receive ratings and comments from other users on the platform.`
+    header: 'What measures do you take to ensure energy efficiency in your properties?',
+    content: `We incorporate state-of-the-art energy-saving technologies and design practices in our properties, resulting in reduced utility costs and a minimal carbon footprint.`
   },
-  // {
-  //   header: 'Is the Music Rater available on all devices?',
-  //   content: `The Music Rater app is a tool specifically designed for musicians to rate their own music and get feedback from other musicians. It allows musicians to create a profile, upload their music, and receive ratings and comments from other users on the platform.`
-  // },
-  // {
-  //   header: 'Is the Music Rater available on all devices?',
-  //   content: `The Music Rater app is a tool specifically designed for musicians to rate their own music and get feedback from other musicians. It allows musicians to create a profile, upload their music, and receive ratings and comments from other users on the platform.`
-  // },
+  {
+    header: 'How can I schedule a consultation or property viewing?',
+    content: `To schedule a consultation or property viewing, you may call us at 08164482813 or email us at ayotundebally@gmail.com. Our team of professionals would be delighted to assist you in finding the perfect property match.`
+  },
+  {
+    header: 'Where can I find information about your current and past real estate projects?',
+    content: `Please visit the "Projects" tab on our website to explore our diverse portfolio of completed and ongoing real estate developments, highlighting the features and amenities that set us apart.`
+  },
 ]
 
 const Faq = () => {
