@@ -76,3 +76,18 @@
 .ant-carousel .slick-next:focus {
   color: unset;
 }
+/* .ant-carousel  .carousel-indicators .li    */
+/* .slick-dots li  button >  */
+.slick-active button{
+  background-color: #81672C !important;
+}
+/* .slick-dots li button{} */
+.slick-dots li {
+  background-color: #81672C  !important;
+  width: 100px !important;
+  padding: 4px !important;
+  border-radius: 10px !important;
+  row-gap: 20px !important;
+  background: transparent !important;
+  margin-right: 40px !important;
+}
