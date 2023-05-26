@@ -115,8 +115,8 @@ const Faq = () => {
           </div>
         </div>
 
-        <div className="object-cover w-full h-full sm:h-max bg-no-repeat bg-cover bg-center mx-auto bg-[url('/faqsecond.svg')] bg-black bg-opacity-100">
-          <div className="absolute h-full w-full bg-black opacity-70 bg-opacity-90"></div>
+        <div className="object-cover w-full h-max sm:h-max bg-no-repeat bg-cover bg-center mx-auto bg-[url('/faqsecond.svg')] bg-black bg-opacity-100">
+          <div className="absolute h-fit w-full bg-black opacity-70 bg-opacity-90"></div>
 
           <div className="py-20">
             <Carousel arrows {...settings}>
