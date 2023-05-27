@@ -20,10 +20,15 @@ const Navbar = ({ scrollToSection }: Props) => {
                 </Link>
 
 
-                <div className="justify-between items-center flex text-[#8A8986]">
-                    <Link to="/" className={`${window.location.pathname === '/' && 'hidden text-white'} mx-3 sm:mx-4`}>Home</Link>
-                    <Link to="/about" className={`${window.location.pathname === '/about' && 'hidden text-white'} mx-3 sm:mx-4`}>About</Link>
-                    <Link to="/faq" className={`${window.location.pathname === '/faq' && 'hidden text-white'} mx-3 sm:mx-4`}>Faq</Link>
+                <div className="justify-between items-center sm:hidden flex text-[#8A8986] font-semibold">
+                    <Link to="/" className={`${window.location.pathname === '/' && 'hidden text-white'} mx-3 sm:mx-4 text-[#d1c9b7]`}>Home</Link>
+                    <Link to="/about" className={`${window.location.pathname === '/about' && 'hidden text-white'} mx-3 sm:mx-4 text-[#d1c9b7]`}>About</Link>
+                    <Link to="/faq" className={`${window.location.pathname === '/faq' && 'hidden text-white'} mx-3 sm:mx-4 text-[#d1c9b7]`}>Faq</Link>
+                </div>
+                <div className="justify-between items-center hidden sm:flex text-[#8A8986] font-semibold">
+                    <Link to="/" className={`${window.location.pathname === '/' && ' text-white border-b-4 border-[#BC994B]'} mx-3 sm:mx-4 text-[#d1c9b7]`}>Home</Link>
+                    <Link to="/about" className={`${window.location.pathname === '/about' && ' text-white border-b-4 border-[#BC994B]'} mx-3 sm:mx-4 text-[#d1c9b7]`}>About</Link>
+                    <Link to="/faq" className={`${window.location.pathname === '/faq' && ' text-white border-b-4 border-[#BC994B]'} mx-3 sm:mx-4 text-[#d1c9b7]`}>Faq</Link>
                 </div>
 
                 <div className="sm:flex md:order-2">
