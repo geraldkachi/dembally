@@ -110,33 +110,37 @@ const Faq = () => {
 
         <div className="">
           <div className="py-20 sm:py-36 object-cover w-full h-full bg-no-repeat bg-cover bg-center mx-auto bg-[url('/faqfirst.svg')] bg-black bg-opacity-100">
-          {/* <div className="absolute h-full w-full bg-black opacity-5"></div> */}
+            {/* <div className="absolute h-full w-full bg-black opacity-5"></div> */}
             <div className="mt-36 text-3xl md:text-[56px] text-white font-medium text-center cinz">Frequently Asked Questions</div>
           </div>
         </div>
 
-        <div className="object-cover w-full h-max sm:h-max bg-no-repeat bg-cover bg-center mx-auto bg-[url('/faqsecond.svg')] bg-black bg-opacity-100">
-          <div className="absolute h-fit w-full bg-black opacity-70 bg-opacity-90"></div>
+        <div>
 
-          <div className="py-20">
-            <Carousel arrows {...settings}>
-              <div className="flex items-center justify-center">
-                {faqArr.map((item, index) => (
-                  <Accordion key={`faq_${index}`} heading={<h1 className="font-semibold my-4 text-base text-[#FFEEC8]">{item.header}</h1>}>
-                    <p className="pb-4 text-[#FFEEC8]">{item?.content}</p>
-                  </Accordion>
-                ))}
-              </div>
-              <div>
-                {faqArr2.map((item, index) => (
-                  <Accordion key={`faq_${index}`} heading={<h1 className="font-semibold my-4 text-base text-[#FFEEC8]">{item.header}</h1>}>
-                    <p className="pb-4 text-[#FFEEC8]">{item?.content}</p>
-                  </Accordion>
-                ))}
-              </div>
-            </Carousel>
+          <div  className="object-cover w-full h-max sm:h-max bg-no-repeat bg-cover bg-center mx-auto bg-[url('/faqsecond.svg')] bg-black bg-opacity-100">
+            <div className="absolute h-fit w-full bg-black opacity-70 bg-opacity-90"></div>
+
+            <div className="py-20">
+              <Carousel arrows {...settings}>
+                <div className="flex items-center justify-center">
+                  {faqArr.map((item, index) => (
+                    <Accordion key={`faq_${index}`} heading={<h1 className="font-semibold my-4 text-base text-[#FFEEC8]">{item.header}</h1>}>
+                      <p className="pb-4 text-[#FFEEC8]">{item?.content}</p>
+                    </Accordion>
+                  ))}
+                </div>
+                <div>
+                  {faqArr2.map((item, index) => (
+                    <Accordion key={`faq_${index}`} heading={<h1 className="font-semibold my-4 text-base text-[#FFEEC8]">{item.header}</h1>}>
+                      <p className="pb-4 text-[#FFEEC8]">{item?.content}</p>
+                    </Accordion>
+                  ))}
+                </div>
+              </Carousel>
+            </div>
           </div>
         </div>
+
       </div>
 
       <Subscribe />
