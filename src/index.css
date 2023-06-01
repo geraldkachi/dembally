@@ -113,20 +113,20 @@
     content: '';
     display: block;
     position: relative;
-    bottom: 20px;
-    right: 3px;
+    /* bottom: 20px;
+    right: 3px; */
     /* width: 100px; */
-    font-size: 25px;
+    /* font-size: 25px; */
     color: gray;
     /* background-color: white; */
     /* border: 2px solid gray; */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    /* padding: 5px; */
     border-radius: 50%;
-    width: 33px;
-    height: 33px;
+    /* width: 33px;
+    height: 33px; */
 
 }
 .slick-arrow.slick-next {
@@ -136,8 +136,8 @@
   content: '';
   display: block;
   position: relative;
-  right: 3px;
-  bottom: 20px;
+  /* right: 3px; */
+  /* bottom: 20px; */
   /* width: 100px; */
   font-size: 25px;
   color: gray;
@@ -146,8 +146,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  /* padding: 5px; */
   border-radius: 50%;
-  width: 33px;
-  height: 33px;
+  /* width: 33px;
+  height: 33px; */
 }
