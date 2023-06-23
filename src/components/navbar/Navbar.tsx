@@ -2,7 +2,7 @@ import { Modal } from 'antd'
 import { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import Logonav from '../../assets/svg/Logonav'
-import { ClickOutside } from '../modal/ClickOutside'
+// import { ClickOutside } from '../modal/ClickOutside'
 
 import CloseIcon from './close.svg'
 
