@@ -4,6 +4,8 @@ import { Link, useNavigate } from 'react-router-dom'
 import Logonav from '../../assets/svg/Logonav'
 import { ClickOutside } from '../modal/ClickOutside'
 
+import CloseIcon from './close.svg'
+
 interface Props {
     scrollToSection?: () => void | undefined,
 }
@@ -47,7 +49,7 @@ const Navbar = ({ scrollToSection }: Props) => {
                 </div>
 
                 <div className="sm:flex md:order-2 lg:block hidden">
-                    <button type="button" onClick={() => navigate('/contact')} className={`${window.location.pathname === '/contact' && 'hidden'} whitespace-nowrap flex items-center border border-[#F6CD72]  text-white bg-transparent focus:outline-none  font-medium rounded-md text-sm px-5 sm:px-10 py-3 text-center mr-3 md:mr-0`}>
+                    <button type="button" onClick={() => navigate('/contact')} className={`${window.location.pathname === '/contact' && 'block'} whitespace-nowrap flex items-center border border-[#F6CD72]  text-white bg-transparent focus:outline-none  font-medium rounded-md text-sm px-5 sm:px-10 py-3 text-center mr-3 md:mr-0`}>
                         Contact Us
                     </button>
 
@@ -64,6 +66,10 @@ const Navbar = ({ scrollToSection }: Props) => {
             <div
                 // onClick={() => setNav(prev => !prev)}
                 className={!nav ? 'fixed left-0 top-0 h-full w-full border-r border-r-gray-300 bg-[#000] bg-opacity-90 ease-in-out duration-500 shadow-lg z-[19999px]' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+
+                <div className='absolute top-4 right-4 cursor-pointer' onClick={() => setNav(prev => !prev)}>
+                    <img className='w-8 h-8 cursor-pointer' src={CloseIcon} alt="CloseIcon" />
+                </div>
                 <div className="flex flex-col justify-evenly items-center py-10 my-auto h-full mx-auto px-5 text-[#8A8986] font-semibold">
 
                     {/* <div className="justify-between items-center flex-col flex "> */}
@@ -72,7 +78,7 @@ const Navbar = ({ scrollToSection }: Props) => {
                         <Link to="/faq" className={`${window.location.pathname === '/faq' && ' text-white border-b-4 border-[#BC994B]'} mx-3 sm:mx-4 text-[#d1c9b7]`}>Faq</Link>
                     {/* </div> */}
 
-                    <button type="button" onClick={() => navigate('/contact')} className={`${window.location.pathname === '/contact' && 'hidden'} w-full whitespace-nowrap flex flex-col items-center border border-[#F6CD72]  bg-[#F6CD72] text-amber-900 focus:outline-none  font-medium rounded-md text-sm px-5 sm:px-10 py-3 text-center md:mr-0 z-[9999px]`}>
+                    <button type="button" onClick={() => navigate('/contact')} className={`${window.location.pathname === '/contact' && 'block'} w-full whitespace-nowrap flex flex-col items-center border border-[#F6CD72]  bg-[#F6CD72] text-amber-900 focus:outline-none  font-medium rounded-md text-sm px-5 sm:px-10 py-3 text-center md:mr-0 z-[9999px]`}>
                         Contact Us
                     </button>
                 </div>
