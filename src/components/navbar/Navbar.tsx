@@ -6,10 +6,7 @@ import CloseIcon from './close.svg'
 import Logonav from '../../assets/svg/Logonav'
 import useWindowDimensions from '../../hooks/useDimension'
 
-interface Props {
-    scrollToSection?: () => void | undefined,
-}
-const Navbar = ({ scrollToSection }: Props) => {
+const Navbar = () => {
     const [nav, setNav] = useState<boolean>(true);
     const [stateNew, setStateNew] = useState<boolean>(false)
     const navigate = useNavigate()
