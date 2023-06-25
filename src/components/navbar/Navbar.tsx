@@ -1,10 +1,10 @@
 import { Modal } from 'antd'
 import { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import Logonav from '../../assets/svg/Logonav'
-// import { ClickOutside } from '../modal/ClickOutside'
 
 import CloseIcon from './close.svg'
+import Logonav from '../../assets/svg/Logonav'
+import useWindowDimensions from '../../hooks/useDimension'
 
 interface Props {
     scrollToSection?: () => void | undefined,
@@ -13,6 +13,8 @@ const Navbar = ({ scrollToSection }: Props) => {
     const [nav, setNav] = useState<boolean>(true);
     const [stateNew, setStateNew] = useState<boolean>(false)
     const navigate = useNavigate()
+    const { width } = useWindowDimensions()
+
 
     useEffect(() => {
         if (!nav) document.body.style.overflowY = 'hidden'
@@ -65,7 +67,7 @@ const Navbar = ({ scrollToSection }: Props) => {
             {/* <ClickOutside onclickoutside={() => setNav(prev => !prev)} className={!nav ? 'fixed left-0 top-0 h-full w-full border-r border-r-gray-300 bg-[#e9eddb] ease-in-out duration-500 shadow-lg z-[9999px]' : 'ease-in-out duration-500 fixed left-[-100%]'}> */}
             <div
                 // onClick={() => setNav(prev => !prev)}
-                className={!nav ? 'fixed left-0 top-0 h-full w-full border-r border-r-gray-300 bg-[#000] bg-opacity-90 ease-in-out duration-500 shadow-lg z-[19999px]' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+                className={(!nav && (width <= 640))? 'fixed left-0 top-0 h-full w-full border-r border-r-gray-300 bg-[#000] bg-opacity-90 ease-in-out duration-500 shadow-lg z-[19999px]' : 'ease-in-out duration-500 fixed left-[-100%]'}>
 
                 <div className='absolute top-4 right-4 cursor-pointer' onClick={() => setNav(prev => !prev)}>
                     <img className='w-8 h-8 cursor-pointer' src={CloseIcon} alt="CloseIcon" />

@@ -1,4 +1,4 @@
-import { ClickOutside } from "./ClickOutside";
+import { ClickOutside } from "../../hooks/ClickOutside";
 
 interface Props {
   type?: string
