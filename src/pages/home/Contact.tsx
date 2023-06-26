@@ -9,10 +9,10 @@ const Contact = () => {
         <Navbar />
       </div>
 
-      <section className="relative bg-[url(/contactsvg.svg)] bg-cover bg-center bg-no-repeat sm:h-screen">
+      <section className="relative bg-[url(/contactsvg.svg)] bg-cover bg-center bg-no-repeat sm:h-max">
       <div className="absolute h-full w-full bg-black opacity-40"></div>
 
-        <div className="relative mx-auto max-w-screen-xl sm:gap-x-56 px-4 sm:py-32 sm:px-6 lg:flex h-screen lg:items-center lg:px-8">
+        <div className="relative mx-auto max-w-screen-xl sm:gap-x-56 px-4 sm:py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
           <div className="hidden sm:flex flex-col justify-between">
             <div className="space-y-2 text-white">
               <h2 className="text-4xl font-bold leading-tight lg:text-5xl pt-14 lg:pt-72 cinz">Our Contact</h2>
