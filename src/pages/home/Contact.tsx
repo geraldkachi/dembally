@@ -12,8 +12,8 @@ const Contact = () => {
       <section className="relative bg-[url(/contactsvg.svg)] bg-cover bg-center bg-no-repeat sm:h-max">
       <div className="absolute h-full w-full bg-black opacity-40"></div>
 
-        <div className="relative mx-auto max-w-screen-xl sm:gap-x-56 px-4 sm:py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
-          <div className="hidden sm:flex flex-col justify-between">
+        <div className="relative mx-auto max-w-screen-xl sm:gap-x-56 px-4 py-16 sm:py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+          <div className="sm:flex flex-col justify-between">
             <div className="space-y-2 text-white">
               <h2 className="text-4xl font-bold leading-tight lg:text-5xl pt-14 lg:pt-72 cinz">Our Contact</h2>
               <div className="">At Dembally Limited, we prioritise the need a nd satisfaction of our clients; both potential and non. So, feel free to reach us on the contact addresses below</div>
@@ -33,7 +33,7 @@ const Contact = () => {
             <img src="assets/svg/doodle.svg" alt="" className="p-6 h-52 md:h-64" />
           </div>
 
-          <div className="pt-32 sm:pt-0">
+          <div className="md:pt-32 sm:pt-0">
 
           <form className="space-y-6 ng-untouched p-3 sm:p-10 ng-pristine ng-valid bg-[rgba(24,17,1,0.5)] ">
             <h2 className="text-3xl font-bold leading-tight text-white lg:text-5xl cinz">SCHEDULE AN APPOINTMENT</h2>
