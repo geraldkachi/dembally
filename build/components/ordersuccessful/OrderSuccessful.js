@@ -1,0 +1,10 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+// import OrderSuccessIcon from '../../assets/svg/OrderSuccessIcon'
+// import SuccessIcon from '../../assets/svg/successIcon.png'
+import NewSuccessIcon from '../../assets/svg/newSucc.svg';
+const OrderSuccessful = () => {
+    return (_jsxs("div", { className: 'my-10', children: [_jsx("p", { className: 'text-[#031744] text-3xl sm:text-5xl font-semibold p-3', children: "Order #4343 placed successfully" }), _jsxs("div", { className: "max-w-lg mx-auto my-auto", children: [_jsx("div", { className: "flex items-center justify-center", children: _jsx("img", { src: NewSuccessIcon, alt: "SuccessIcon" }) }), _jsxs("div", { className: "mx-auto text-center", children: [_jsx("p", { className: "my-5 text-lg font-bold", children: "Success" }), _jsx("p", { className: "my-2 text-sm font-medium", children: "Your order has been placed successfully, kindly check your email for order details and estimated delivery date" })] }), _jsx("div", { className: "mx-auto mt-10 text-center", children: _jsxs("div", { className: "mb-2", children: [_jsxs("button", { type: "button", onClick: () => {
+                                    }, className: "text-white text-base font-medium w-full bg-[#2568FF] hover:bg-[#2568FF] border-[#2568FF] rounded-lg focus:outline-none px-5 py-4 text-center flex items-center justify-center", children: [_jsx("span", { children: "Download Receipt" }), _jsx("svg", { className: "ml-5", width: "12", height: "11", viewBox: "0 0 12 11", fill: "none", xmlns: "http://www.w3.org/2000/svg", children: _jsx("path", { d: "M8.78135 5.02901L5.20535 1.45301L6.14802 0.510345L11.3334 5.69568L6.14802 10.881L5.20535 9.93835L8.78135 6.36235H0.666687V5.02901H8.78135Z", fill: "white" }) })] }), _jsx("button", { type: "button", onClick: () => {
+                                    }, className: "text-[#2568FF] text-base font-medium mt-3 w-full bg-[#ffff] border-[#2568FF] border hover:bg-[#ececef] rounded-lg focus:outline-none px-5 py-4 text-center", children: _jsx("span", { children: "Place a new order" }) })] }) })] })] }));
+};
+export default OrderSuccessful;

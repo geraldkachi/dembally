@@ -66,7 +66,7 @@ const Hero = forwardRef(({ scrollToSection }: Props, ref: Ref<HTMLDivElement>) =
             <div className="w-full">
                 <div className=" bg-no bg-center">
                     <div className="absolute top-0 z-10 w-full">
-                        <Navbar {...{ scrollToSection }} />
+                        <Navbar/>
                     </div>
 
                     <Carousel autoplay arrows {...settings}>

@@ -12,7 +12,6 @@ const Navbar = () => {
     const navigate = useNavigate()
     const { width } = useWindowDimensions()
 
-
     useEffect(() => {
         if (!nav) document.body.style.overflowY = 'hidden'
         return () => {
@@ -63,7 +62,7 @@ const Navbar = () => {
 
             {/* <ClickOutside onclickoutside={() => setNav(prev => !prev)} className={!nav ? 'fixed left-0 top-0 h-full w-full border-r border-r-gray-300 bg-[#e9eddb] ease-in-out duration-500 shadow-lg z-[9999px]' : 'ease-in-out duration-500 fixed left-[-100%]'}> */}
             <div
-                className={(!nav && (width <= 640))? 'fixed left-0 top-0 h-full w-full border-r border-r-gray-300 bg-[#000] bg-opacity-90 ease-in-out duration-500 shadow-lg z-50' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+                className={(!nav && (width <= 640)) ? 'fixed left-0 top-0 h-full w-full border-r border-r-gray-300 bg-[#000] bg-opacity-90 ease-in-out duration-500 shadow-lg z-50' : 'ease-in-out duration-500 fixed left-[-100%]'}>
 
                 <div className='absolute top-4 right-4 cursor-pointer' onClick={() => setNav(prev => !prev)}>
                     <img className='w-8 h-8 cursor-pointer' src={CloseIcon} alt="CloseIcon" />
@@ -71,9 +70,9 @@ const Navbar = () => {
                 <div className="flex flex-col justify-evenly items-center py-10 my-auto h-full mx-auto px-5 text-[#8A8986] font-semibold">
 
                     {/* <div className="justify-between items-center flex-col flex "> */}
-                        <Link to="/" className={`${window.location.pathname === '/' && ' text-white border-b-4 border-[#BC994B]'} mx-3 sm:mx-4 text-[#d1c9b7]`}>Home</Link>
-                        <Link to="/about" className={`${window.location.pathname === '/about' && ' text-white border-b-4 border-[#BC994B]'} mx-3 sm:mx-4 text-[#d1c9b7]`}>About</Link>
-                        <Link to="/faq" className={`${window.location.pathname === '/faq' && ' text-white border-b-4 border-[#BC994B]'} mx-3 sm:mx-4 text-[#d1c9b7]`}>Faq</Link>
+                    <Link to="/" className={`${window.location.pathname === '/' && ' text-white border-b-4 border-[#BC994B]'} mx-3 sm:mx-4 text-[#d1c9b7]`}>Home</Link>
+                    <Link to="/about" className={`${window.location.pathname === '/about' && ' text-white border-b-4 border-[#BC994B]'} mx-3 sm:mx-4 text-[#d1c9b7]`}>About</Link>
+                    <Link to="/faq" className={`${window.location.pathname === '/faq' && ' text-white border-b-4 border-[#BC994B]'} mx-3 sm:mx-4 text-[#d1c9b7]`}>Faq</Link>
                     {/* </div> */}
 
                     <button type="button" onClick={() => navigate('/contact')} className={`${window.location.pathname === '/contact' && 'block'} w-full whitespace-nowrap flex flex-col items-center border border-[#F6CD72]  bg-[#F6CD72] text-amber-900 focus:outline-none  font-medium rounded-md text-sm px-5 sm:px-10 py-3 text-center md:mr-0 z-[9999px]`}>
